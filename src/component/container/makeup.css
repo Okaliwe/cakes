@@ -1,0 +1,22 @@
+.willi{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background:linear-gradient(100deg,white,lightyellow,white);
+}
+h2{
+    color: chocolate;
+}
+#po{
+    color:gold;
+}
+.digital{
+    font-size:1.5em;
+    padding-top: 5px;
+    color: gold;
+}
+.digital2{
+    font-size:1.0em;
+    padding-top: 5px;
+    color: gold;
+}

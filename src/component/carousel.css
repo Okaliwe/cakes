@@ -1,0 +1,19 @@
+img{
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+}
+.carous{
+    margin-top: -100px;
+    position: relative;
+    z-index: -1;
+}
+@media screen and (max-width:400px) {
+    img{
+        width: 100vw;
+        height: 50vh;
+    }
+    .carous{
+        margin-top: 0px;
+    }
+}

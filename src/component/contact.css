@@ -1,0 +1,72 @@
+.sales{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 10px;
+    height: 800px;
+    background:linear-gradient(100deg,white,lightyellow,white);
+}
+#sales{
+    color: goldenrod;
+    font-size: 1.5em;
+}
+.dep{
+    margin-left: 3%;
+}
+#aso{
+    color: black;
+    font-size: 1em;
+}
+.send{
+    margin-top: 50px;
+    margin-left:3% ;
+}
+.inp input{
+    width: 97%;
+    margin-top: 30px;
+    height: 50px;
+    padding-left: 3%;
+    background-color: lightgrey;
+    border: none;
+    font-style: italic;
+}
+.inp2 input{
+    width: 97%;
+    margin-top: 30px;
+    height: 150px;
+    padding-left: 3%;
+    padding-bottom: 30%;
+    background-color: lightgrey;
+    border: none;
+    font-style: italic;
+}
+.send a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: goldenrod;
+}
+@media screen and (min-width:750px) {
+    .sales{
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .send{
+        margin-right: 20%;
+        margin-top: -2px;
+    }
+    .inp input{
+        width: 200%;
+    }
+    .inp2 input{
+        width: 200%;
+        padding-bottom: -20%;
+    }
+    .sales{
+        margin-top: -38%;
+        height: 600px;
+    }
+    .send a{
+        margin-top: 50px;
+    }
+}

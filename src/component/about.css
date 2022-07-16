@@ -1,0 +1,98 @@
+#call{
+    text-align: center;
+    color: goldenrod;
+    font-style: italic;
+    font-size: 2.5em;
+}
+#bus{
+    color: goldenrod;
+    font-size: 1em;
+}
+.fig{
+    width: 90%;
+    margin-left: 5%;
+    background:linear-gradient(to right bottom,lightyellow,white);
+}
+#puk{
+    text-align: center;
+    margin-top: 30px;
+}
+.nancy{
+    width: 90%;
+    margin-left: 5%;
+    background:linear-gradient(to right bottom,lightyellow,white);
+}
+#phil{
+    font-size: 1em;
+}
+.nancy2 img{
+    width: 90%;
+    margin-left: 4%;
+    height: 180px;
+}
+.nancy img{
+    width: 100%;
+    margin-left: -1.5%;
+    margin-top: 10px;
+}
+.tobz{
+    width: 90%;
+    background:linear-gradient(to right bottom,lightyellow,white);
+    margin-left: 5%;
+}
+#rat{
+    margin-top: 50px;
+    font-size: 1em;
+    text-align: center;
+}
+#pres{
+    font-size: 1.3em;
+}
+@media screen and (min-width:750px) {
+    .dans{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .davs{
+       width: 400%;
+    }
+    .tobz{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .nancy{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 11%;
+    }
+    .tonia{
+        display: flex;
+        justify-content: space-around;
+    }
+    #rat{
+        width:100%
+    }
+    .nancy2 img{
+        width: 80%;
+        margin-left: 10%;
+        height: 380px;
+    }
+    #im img{
+        width: 200%;
+        height: 300px;
+    }
+    .jel{
+        width: 50%;
+    }
+    .fig{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #bus{
+        margin-left: 10%;
+        padding-top: 17px;
+    }
+
+}
