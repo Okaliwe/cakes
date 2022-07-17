@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCake,faCheck,faDirections,fa, faSnowflake } from '@fortawesome/free-solid-svg-icons'
+import {faCake,faCheck,faDirections, faSnowflake } from '@fortawesome/free-solid-svg-icons'
 import './quality.css'
 import imge from './images/amirali-mirhashemian-EfkMkUXs0fU-unsplash.jpg'
 import imge1 from './images/sorin-gheorghita-RSPMPLdrZ8E-unsplash.jpg'

@@ -1,5 +1,5 @@
 import {NavLink} from "react-router-dom";
-import { useState,useEffect } from 'react'
+import { useState, } from 'react'
 import {Routes,Route } from 'react-router-dom';
 import img3 from './images/closeup-shot-vanilla-cake-with-chocolate-drip-flowers-top.jpg'
 import './home.css'
@@ -32,7 +32,7 @@ const Home = () => {
         <NavLink onClick={wish}  to="makeup">
             <img
                 className="wel"
-                src={img3}
+                src={img3} alt='image'
             /> 
          </NavLink>
          {
@@ -45,6 +45,7 @@ const Home = () => {
             <img
                 className="wel"
                 src={img4}
+                alt='image'
             /> 
          </NavLink>
          {
@@ -56,7 +57,7 @@ const Home = () => {
          <NavLink onClick={wish} to="makeup2">
             <img
                 className="wel"
-                src={img5}
+                src={img5} alt='image'
             /> 
          </NavLink>
          {
@@ -70,7 +71,7 @@ const Home = () => {
          <NavLink onClick={wish} to="makeup3">
             <img
                 className="wel"
-                src={img6}
+                src={img6} alt='image'
             /> 
          </NavLink>
          {
@@ -82,7 +83,7 @@ const Home = () => {
          <NavLink onClick={wish} to="makeup4">
             <img
                 className="wel"
-                src={img7}
+                src={img7} alt='image'
             /> 
          </NavLink>
          {
@@ -94,7 +95,7 @@ const Home = () => {
          <NavLink onClick={wish} to="makeup5">
             <img
                 className="wel"
-                src={img8}
+                src={img8} alt='image'
             /> 
          </NavLink>
          {
@@ -106,7 +107,7 @@ const Home = () => {
          <NavLink onClick={wish} to="makeup6">
             <img
                 className="wel"
-                src={img9}
+                src={img9} alt='image'
             /> 
          </NavLink>
          {
@@ -118,7 +119,7 @@ const Home = () => {
          <NavLink onClick={wish} to="makeup7">
             <img
                 className="wel"
-                src={img10}
+                src={img10} alt='image'
             /> 
          </NavLink>
          {
@@ -130,7 +131,7 @@ const Home = () => {
          <NavLink onClick={wish} to="makeup8">
             <img
                 className="wel"
-                src={img11}
+                src={img11} alt='image'
             /> 
          </NavLink>
          {
@@ -142,7 +143,7 @@ const Home = () => {
          <NavLink  onClick={wish} to="makeup9">
             <img
                 className="wel"
-                src={img12}
+                src={img12} alt='image'
             /> 
          </NavLink>
          {
