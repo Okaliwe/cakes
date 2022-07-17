@@ -1,4 +1,5 @@
 import {NavLink} from "react-router-dom";
+import OutsideClickHandler from 'react-outside-click-handler';
 import React from "react"
 import './navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -41,10 +42,13 @@ const Navbar = () => {
                     <li><NavLink className='lin' to="contact">Contact</NavLink></li>
                 </ul>
                 <div  onClick={navToggle} className='font'>
+                  <OutsideClickHandler onOutsideClick={()=>{
+                    SetActive(false)
+                  }}>
                     <div>
                         <FontAwesomeIcon icon={faBars} />   
                     </div>
-
+                  </OutsideClickHandler>
                 </div>
                 
             </nav>
